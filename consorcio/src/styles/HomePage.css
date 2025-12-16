@@ -1,0 +1,18 @@
+.header-home{
+    background-image: url(../assets/img/bg-home.png) !important;
+    height: 692px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.img-sin-fondo{
+    width: 80px;
+}
+
+
+.nav-links-container .nav-links{
+    text-decoration: none;
+    color: white;
+}
+
