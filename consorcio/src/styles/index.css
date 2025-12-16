@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+
+  --bg-general: #fdfdfd;
+  --bg-header: #E6F4F1;
+  --bg-footer:#033136;
+  --bg-aside: #f8f9fa;
+  --bg-cards: #e9f7f1;
+  --bg-tablas: #f7f9fa;
+  --bg-items-lista: #f7f9fa;
+  --bg-botones: #050707;
+  --bg-header-tablas: #033136;
+  --bg-hoover-botones: #045B61;
+  --color-fuentes:#033136;
+  --fuente-principal: 'lato', sans-serif;
+  
+ 
+ 
+
+
+
+
+}
