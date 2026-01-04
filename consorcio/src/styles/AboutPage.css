@@ -1,0 +1,53 @@
+
+.main-about{
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family :sans-serif;
+    background-color:#033430;
+    text-align: center;
+    color: aliceblue;
+}
+#card-avatares{
+    margin:50px;
+    padding: 10px;
+    width: 80vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align:center;
+    color:black;
+    border-radius: 10px;
+    background-color:  #c9c2b4;
+
+}
+
+#GaleríaImagen{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+}
+#GaleríaImagen:hover{
+    height: 150px;
+    width: 150px;
+
+
+}
+
+#Logo-Github{
+     width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+
