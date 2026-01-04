@@ -1,0 +1,69 @@
+.footer {
+  background-color: #062c28;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+/* CONTENEDOR */
+.footer-container {
+  display: grid;
+  gap: 30px;
+  text-align: center;
+}
+
+/* COLUMNAS */
+.footer-box h4 {
+  margin-bottom: 10px;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box li {
+  margin: 6px 0;
+}
+
+/* LOGO */
+.logo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* COPYRIGHT */
+.footer-copy {
+  border-top: 1px solid #1aff7c;
+  margin-top: 30px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* DISPOSITIVO PEQUEÑO → 1 COLUMNA */
+@media (max-width: 599px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* DISPOSITIVO MEDIANO → 2 O 3 COLUMNAS */
+@media (min-width: 600px) and (max-width: 899px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 🖥️ DISPOSITIVO GRANDE → 3 COLUMNAS */
+@media (min-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
