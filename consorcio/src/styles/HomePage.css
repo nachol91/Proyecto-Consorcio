@@ -1,18 +1,129 @@
-.header-home{
-    background-image: url(../assets/img/bg-home.png) !important;
-    height: 692px;
+
+/* estilos presentacion */
+.presentacion{
+    background-image: url(../assets/img/bg-home.png);
+    height: 700px;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    padding: 105px;
+    gap: 280px;
+    justify-content: center;
 }
 
-.img-sin-fondo{
-    width: 80px;
-}
-
-
-.nav-links-container .nav-links{
-    text-decoration: none;
+.titulo{
     color: white;
+    font-family: var(--fuente-principal);
+    font-size:65px;
+    font-weight: bold;
+    
 }
 
+.titulo-presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.boton-presentacion{
+    background-color: var(--bg-botones) !important;
+    border: 1px solid var(--color-fuentes) !important;
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.boton-presentacion .nav-links{
+    font-size: x-large;
+}
+
+/* estilos zona media */
+
+.seccion-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.iconos-media{
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.icono-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-mid p{
+    font-size: large;
+    font-family: var(--fuente-principal);
+
+}
+
+.ejemplo-usos{
+    display: flex;
+    gap: 250px;
+    margin-top: 120px;
+    justify-content: space-between;
+    
+}  
+
+.ejemplo-usos span{
+     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+
+.elementos-lista{
+    font-size: 18px;
+    font-family: var(--fuente-principal);
+}
+
+
+/* formulario */
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.contenedor-consulta{
+    display: flex;
+    gap: 200px;
+    margin-top: 40px;
+}
+
+.contenedor-consulta span{
+     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.formulario-consulta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    font-family: var(--fuente-principal);
+    
+}
+
+.cuadro-consultas{
+    background-color: #003331;
+    margin-top: 100px;
+    padding: 50px;
+    display: flex;
+    gap: 200px;
+    justify-content:center;
+    font-family: var(--fuente-principal);
+    color: var(--bg-botones);
+    
+}

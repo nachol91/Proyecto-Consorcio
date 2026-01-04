@@ -1,8 +1,8 @@
 import { Navbar, Nav, Container,NavDropdown } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import logo from '../assets/icons/logo.png'
-import '../styles/HeaderComponents.css'
-export default function HeaderComponents() {
+import '../styles/HeaderComponentsRegistrado.css'
+export default function HeaderComponentsRegistrado() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
