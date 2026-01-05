@@ -1,19 +1,16 @@
-{
-    "usuarios": [
-                {"id":1,"nombre":"Craig","apellido":"Jackalin","email":"cjackalin0@cbslocal.com","telefono":"(880) 3114872","admin":true,"piso":"6to","depto":"C"},
-                {"id":2,"nombre":"Eirena","apellido":"Heeney","email":"eheeney1@theglobeandmail.com","telefono":"(557) 2051069","admin":false,"piso":"2do","depto":"B"},
-                {"id":3,"nombre":"Kirbee","apellido":"Roddie","email":"kroddie2@chron.com","telefono":"(171) 2792157","admin":false,"piso":"6to","depto":"B"},
-                {"id":4,"nombre":"Louisette","apellido":"Sultana","email":"lsultana3@bloglovin.com","telefono":"(511) 1073063","admin":true,"piso":"1ro","depto":"A"},
-                {"id":5,"nombre":"Gilberte","apellido":"Divine","email":"gdivine4@rambler.ru","telefono":"(153) 8883038","admin":true,"piso":"2do","depto":"C"},
-                {"id":6,"nombre":"Sarge","apellido":"Sweating","email":"ssweating5@booking.com","telefono":"(213) 4977122","admin":true,"piso":"4to","depto":"C"},
-                {"id":7,"nombre":"Galvin","apellido":"Coady","email":"gcoady6@mit.edu","telefono":"(870) 3026736","admin":false,"piso":"4to","depto":"B"},
-                {"id":8,"nombre":"Karil","apellido":"Klais","email":"kklais7@msu.edu","telefono":"(925) 5829994","admin":true,"piso":"1ro","depto":"B"},
-                {"id":9,"nombre":"Osgood","apellido":"Lippett","email":"olippett8@foxnews.com","telefono":"(787) 3326558","admin":false,"piso":"4to","depto":"A"},
-                {"id":10,"nombre":"Viviana","apellido":"Edensor","email":"vedensor9@technorati.com","telefono":"(893) 7060740","admin":false,"piso":"6to","depto":"D"},
-                {"id":11,"nombre":"Millisent","apellido":"Celier","email":"mceliera@simplemachines.org","telefono":"(654) 4388376","admin":true,"piso":"1ro","depto":"D"},
-                {"id":12,"nombre":"Si","apellido":"Riatt","email":"sriattb@yellowpages.com","telefono":"(323) 9129891","admin":false,"piso":"1ro","depto":"C"},
-                {"id":13,"nombre":"Willis","apellido":"Gillet","email":"wgilletc@simplemachines.org","telefono":"(205) 6042819","admin":false,"piso":"6to","depto":"A"},
-                {"id":14,"nombre":"Duffie","apellido":"Kinney","email":"dkinneyd@sfgate.com","telefono":"(167) 5976964","admin":true,"piso":"2do","depto":"D"},
-                {"id":15,"nombre":"Lester","apellido":"Tejada","email":"ltejadae@plala.or.jp","telefono":"(742) 8160842","admin":false,"piso":"5to","depto":"D"}
-    ]
-}
+[   {"id":1,"nombre":"Craig","apellido":"Jackalin","email":"cjackalin0@cbslocal.com","password":123456,"telefono":"(880) 3114872","piso":"6to","depto":"C"},
+    {"id":2,"nombre":"Eirena","apellido":"Heeney","email":"eheeney1@theglobeandmail.com","password":123456,"telefono":"(557) 2051069","piso":"2do","depto":"B"},
+    {"id":3,"nombre":"Kirbee","apellido":"Roddie","email":"kroddie2@chron.com","password":123456,"telefono":"(171) 2792157","piso":"6to","depto":"B"},
+    {"id":4,"nombre":"Louisette","apellido":"Sultana","email":"lsultana3@bloglovin.com","password":123456,"telefono":"(511) 1073063","piso":"1ro","depto":"A"},
+    {"id":5,"nombre":"Gilberte","apellido":"Divine","email":"gdivine4@rambler.ru","password":123456,"telefono":"(153) 8883038","piso":"2do","depto":"C"},
+    {"id":6,"nombre":"Sarge","apellido":"Sweating","email":"ssweating5@booking.com","password":123456,"telefono":"(213) 4977122","piso":"4to","depto":"C"},
+    {"id":7,"nombre":"Galvin","apellido":"Coady","email":"gcoady6@mit.edu","password":123456,"telefono":"(870) 3026736","piso":"4to","depto":"B"},
+    {"id":8,"nombre":"Karil","apellido":"Klais","email":"kklais7@msu.edu","password":123456,"telefono":"(925) 5829994","piso":"1ro","depto":"B"},
+    {"id":9,"nombre":"Osgood","apellido":"Lippett","email":"olippett8@foxnews.com","password":123456,"telefono":"(787) 3326558","piso":"4to","depto":"A"},
+    {"id":10,"nombre":"Viviana","apellido":"Edensor","email":"vedensor9@technorati.com","password":123456,"telefono":"(893) 7060740","piso":"6to","depto":"D"},
+    {"id":11,"nombre":"Millisent","apellido":"Celier","email":"mceliera@simplemachines.org","password":123456,"telefono":"(654) 4388376","piso":"1ro","depto":"D"},
+    {"id":12,"nombre":"Si","apellido":"Riatt","email":"sriattb@yellowpages.com","password":123456,"telefono":"(323) 9129891","piso":"1ro","depto":"C"},
+    {"id":13,"nombre":"Willis","apellido":"Gillet","email":"wgilletc@simplemachines.org","password":123456,"telefono":"(205) 6042819","piso":"6to","depto":"A"},
+    {"id":14,"nombre":"Duffie","apellido":"Kinney","email":"dkinneyd@sfgate.com","password":123456,"telefono":"(167) 5976964","piso":"2do","depto":"D"},
+    {"id":15,"nombre":"Lester","apellido":"Tejada","email":"ltejadae@plala.or.jp","password":123456,"telefono":"(742) 8160842","piso":"5to","depto":"B"}
+]

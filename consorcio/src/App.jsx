@@ -20,11 +20,11 @@ import './styles/App.css'
 const AppLayout = () => {
   const location = useLocation();
 
-  const mostrarHeaderAdmin = location.pathname === '/admin';
-
-  const mostrarHeaderInquilinos = location.pathname === '/inquilinos';
+  const mostrarHeaderRegistrados = location.pathname === '/admin' || location.pathname === '/inquilinos';
 
   const mostrarHeaderHome = location.pathname === '/' || location.pathname === '/about';
+
+  const mostrarFooter = location.pathname === '/' || location.pathname === '/about' || location.pathname === '/admin' || location.pathname === '/inquilinos';
 
   const [authAdmin, setAuthAdmin] = useState(false);
 
@@ -49,8 +49,7 @@ const AppLayout = () => {
   return (
     <>
 
-      {mostrarHeaderAdmin && <HeaderComponentsRegistrado />}
-      {mostrarHeaderInquilinos && <HeaderComponentsRegistrado />}
+      {mostrarHeaderRegistrados && <HeaderComponentsRegistrado />}
       {mostrarHeaderHome && <HeaderHome />}
 
       <main>
@@ -77,7 +76,7 @@ const AppLayout = () => {
         </Routes>
       </main>
 
-      <FooterComponents />
+      {mostrarFooter && <FooterComponents />}
 
     </>
   )

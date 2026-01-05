@@ -1,0 +1,7 @@
+[
+    {"id":16, "nombre":"Ignacio Martín", "apellido":"Loidi", "email":"nachooo@gmail.com", "password":123456},
+    {"id":17, "nombre":"Facundo", "apellido":"Silva", "email":"Facundosilvasoria@gmail.com", "password":123456},
+    {"id":18, "nombre":"Fanny", "apellido":"Rasgido", "email":"fannyrasgido@gmail.com", "password":123456},
+    {"id":19, "nombre":"Gonzalo", "apellido":"Garcia", "email":"gonzarock1995@gmail.com", "password":123456},
+    {"id":20, "nombre":"Joaquin", "apellido":"Guzman", "email":"gonzalojoaquinguzman765@gmail.com", "password":123456}
+]
