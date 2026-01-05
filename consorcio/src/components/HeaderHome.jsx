@@ -30,7 +30,7 @@ export default function HeaderHome() {
 
                 <Button className="boton-ingreso" >
                     <NavLink className="nav-links" to = "/login" target="_blank">
-                      Ingresar <img src={ingreso} alt="icono login" style={{ width: '25px', height: '25px' }}/> 
+                      Ingresar <img src={ingreso} alt="icono login" style={{ width: '23px', height: '23px' }}/> 
                     </NavLink>
                 </Button>
                 

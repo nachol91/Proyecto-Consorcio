@@ -57,25 +57,25 @@ export default function HomePage() {
         </div>
       </section>
       <section className="seccion-media">
-        <h2 style={{fontSize: '70px', fontFamily: 'lato', color: '#045B61'}}>Por que te conviene Gestor app?</h2>
+        <h2 style={{fontSize: '50px', fontFamily: 'lato', color: '#033340'}}>¿Por que te conviene Gestor app?</h2>
         <div className="iconos-media">
           <span className="icono-mid">
-            <img src={facil} alt="icono facil de usar" style={{ width: '100px'}}/>
+            <img src={facil} alt="icono facil de usar" style={{ width: '80px'}}/>
             <p>Facil de usar</p>
           </span>
           
           <span className="icono-mid">
-            <img src={entrega} alt="icono facil de usar" style={{ width: '100px'}}/>
+            <img src={entrega} alt="icono facil de usar" style={{ width: '80px'}}/>
             <p>Entrega rápida</p>
           </span>
           
           <span className="icono-mid">
-            <img src={interactivo} alt="icono facil de usar" style={{ width: '100px'}}/>
+            <img src={interactivo} alt="icono facil de usar" style={{ width: '80px'}}/>
             <p>Interactivo</p>
           </span>
           
           <span className="icono-mid">
-            <img src={precio} alt="icono facil de usar" style={{ width: '100px'}}/>
+            <img src={precio} alt="icono facil de usar" style={{ width: '80px'}}/>
             <p>Bajo costo</p>
           </span>
         </div>
@@ -85,25 +85,25 @@ export default function HomePage() {
           <div className="ejemplo-usos">
             
             <span>
-              <img src={admin}alt="imagen admin ejemplo" style={{ width: '450px', borderRadius: '5%'}} />
+              <img src={admin}alt="imagen admin ejemplo" style={{ width: '400px', borderRadius: '4%'}} />
             </span>
             
             <div className="lista-ejemplos">
-              <h3 style={{fontSize: '40px', fontFamily: 'lato', color: '#045B61'}}>Si sos Administrador</h3>
-              <ul style={{marginTop: '50px'}}>
-                <li className="elementos-lista" style={{color: 'grey'}}>Acceso online al panel de los consorcios administrados.</li>
+              <h3 style={{fontSize: '50px', fontFamily: 'lato', color: '#033430', fontWeight: 'bold'}}>Si sos administrador</h3>
+              <ul style={{marginTop: '40px'}}>
+                <li className="elementos-lista">Acceso online al panel de los consorcios administrados.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Alta de los consorcios y propietarios.</li>
+                <li className="elementos-lista" >Alta de los consorcios y propietarios.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Alta los servicios útiles / Reglamentos / Actividades mensuales.</li>
+                <li className="elementos-lista" >Alta los servicios útiles / Reglamentos / Actividades mensuales.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Carga y envío automático de expensas de los consorcios.</li>
+                <li className="elementos-lista" >Carga y envío automático de expensas de los consorcios.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Carga y envío automático de avisos / reuniones de consorcio y demás.</li>
+                <li className="elementos-lista" >Carga y envío automático de avisos / reuniones de consorcio y demás.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Avisos Masivos: Carga y envío automático a todos los consorcios juntos con un solo click.</li>
+                <li className="elementos-lista" >Avisos Masivos: Carga y envío automático a todos los consorcios juntos con un solo click.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>El historial de toda la información y envíos realizados siempre online.</li>
+                <li className="elementos-lista" >El historial de toda la información y envíos realizados siempre online.</li>
               </ul>
 
             </div>
@@ -114,29 +114,29 @@ export default function HomePage() {
             
             <div>
               
-              <h3 style={{fontSize: '40px', fontFamily: 'lato', color: '#045B61'}}>Si sos propietario/inquilino</h3>
-              <ul style={{marginTop: '50px'}}>
-                <li className="elementos-lista" style={{color: 'grey'}}>Acceso online al panel de tu consorcio.</li>
+              <h3 style={{fontSize: '50px', fontFamily: 'lato', color: '#033340', fontWeight: 'bold'}}>Si sos propietario/inquilino</h3>
+              <ul style={{marginTop: '40px'}}>
+                <li className="elementos-lista" >Acceso online al panel de tu consorcio.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Consultar y/o descargar las expensas recibidas mes a mes.</li>
+                <li className="elementos-lista" >Consultar y/o descargar las expensas recibidas mes a mes.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Consultar los avisos enviados a su consorcio.</li>
+                <li className="elementos-lista" >Consultar los avisos enviados a su consorcio.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Consultar listado de proveedores recomendados por el <br /> administrador (gasista, electricista, pintor, etc).</li>
+                <li className="elementos-lista" >Consultar listado de proveedores recomendados por el <br /> administrador (gasista, electricista, pintor, etc).</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Realizar consultas y/o reclamos al administrador de manera online.</li>
+                <li className="elementos-lista" >Realizar consultas y/o reclamos al administrador de manera online.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>El Historial de expensas online.</li>
+                <li className="elementos-lista" >El Historial de expensas online.</li>
                 <br />
-                <li className="elementos-lista" style={{color: 'grey'}}>Descargando la app tendras acceso tambien a toda esta info.</li>
+                <li className="elementos-lista" >Descargando la app tendras acceso tambien a toda esta info.</li>
                 <br />
               </ul>
 
             </div>
-            
-            <span>
-              <img src={propietario} alt="imagen propietario ejemplo" style={{ width: '450px', borderRadius: '5%'}} />
+             <span>
+              <img src={propietario} alt="imagen propietario ejemplo" style={{ width: '400px', borderRadius: '4%',}} />
             </span>
+           
             
           </div>
 
@@ -148,7 +148,7 @@ export default function HomePage() {
 
       <section id="contacto">
         
-        <h2 style={{fontSize: '60px', fontFamily: 'lato', color: '#045B61', marginBottom: '40px'}}>Contacto</h2>
+        <h2 style={{fontSize: '55px', fontFamily: 'lato', color: '#033340', marginBottom: '30px', fontWeight: 'bold'}}>Contacto</h2>
         <h3 style={{fontSize: '25px', fontFamily: 'lato'}}>Estamos listo para ayudarte a encontrar las mejores soluciones</h3>
         
         <div className="contenedor-consulta" id="formulario-de-contacto">
@@ -165,7 +165,7 @@ export default function HomePage() {
               <Form.Label>Consulta</Form.Label>
               <Form.Control as="textarea" name="message" rows={6} placeholder="Por favor ingrese su piso y depto por el cual hace su consulta" maxLength={300} />
             </Form.Group>
-            <Button style={{backgroundColor:'#afff05', color: '#033136', border:'1px, solid, #033136'}} type="submit" value="Send">
+            <Button style={{backgroundColor:'#00ed64', color: '#033340', border:'1px, solid, #033340'}} type="submit" value="Send">
               Enviar
             </Button>
           </Form>
@@ -173,7 +173,7 @@ export default function HomePage() {
           <span><img src={consulta} alt="imagen de formulario" style={{ width: '400px', borderRadius: '5%'}} /></span>
         </div>
 
-        <div className="cuadro-consultas" style={{ width: '40%', height: '200px', borderRadius: '10px'}}>
+        <div className="cuadro-consultas" style={{ width: '50%', height: '150px', borderRadius: '4px'}}>
           
           <div>
               <h3>Llamanos</h3>
