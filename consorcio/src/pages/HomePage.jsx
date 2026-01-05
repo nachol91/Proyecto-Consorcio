@@ -1,7 +1,7 @@
 import { Button, Form, FormGroup } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import mano from "../assets/img/imagen-mano.png"
 import entrega from "../assets/icons/entrega-rapida.png"
 import facil from "../assets/icons/facil.png"
@@ -11,7 +11,10 @@ import admin from "../assets/img/imagen-admin.jpg"
 import propietario from "../assets/img/imagen-propietario.jpg"
 import separador from "../assets/img/foto-separador.jpg"
 import consulta from "../assets/img/imagen-consulta.jpg"
+import google from "../assets/icons/google-play.png"
+import mac from "../assets/icons/mac.png"
 import '../styles/HomePage.css'
+
 
 export default function HomePage() {
 
@@ -44,11 +47,11 @@ export default function HomePage() {
           <p className='titulo'>La solución de gestión <br/>para tu consorcio</p>
           <div className="botones">
             <Button className='boton-presentacion'>
-            <NavLink className="nav-links" to = "*">Google Play</NavLink>
-          </Button>
-          <Button className='boton-presentacion'>
-            <NavLink className="nav-links" to = "*">App Store</NavLink>
-          </Button>
+              <NavLink className="nav-links" to = "*"><span><img src={google} alt="google play"/>Google Play</span></NavLink>
+            </Button>
+            <Button className='boton-presentacion'>
+              <NavLink className="nav-links" to = "*"><span><img src={mac} alt="mac"/>App Store</span></NavLink>
+            </Button>
           </div>
         </div>
 
@@ -144,14 +147,14 @@ export default function HomePage() {
           
       </section>
 
-      <span><img src={separador} style={{width: '100%', marginTop: '40px'}} alt="" /></span>
+      <span><img src={separador} style={{width: '100%', marginTop: '40px'}} alt="separador" /></span>
 
       <section id="contacto">
         
         <h2 style={{fontSize: '60px', fontFamily: 'lato', color: '#045B61', marginBottom: '40px'}}>Contacto</h2>
         <h3 style={{fontSize: '25px', fontFamily: 'lato'}}>Estamos listo para ayudarte a encontrar las mejores soluciones</h3>
         
-        <div className="contenedor-consulta" id="formulario-de-contacto">
+        <div className="contenedor-consulta">
           <Form className="formulario-consulta" ref={form} onSubmit={sendEmail}>
             <FormGroup className="mb-3" controlId="nombre">
               <Form.Label>Nombre y Apellido</Form.Label>
