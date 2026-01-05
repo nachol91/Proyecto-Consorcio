@@ -1,0 +1,51 @@
+.error-container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #052e16;
+  color: #dcfce7;
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.error-code {
+    color: #22c55e;
+    font-size: 96px;
+  animation:
+    zoomFade 0.8s ease-out,
+    float 3s ease-in-out infinite;
+}
+
+
+.error-text {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.error-button {
+  text-decoration: none;
+  background-color: #22c55e;
+  color: #052e16;
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.error-button:hover {
+  background-color: #16a34a;
+}
