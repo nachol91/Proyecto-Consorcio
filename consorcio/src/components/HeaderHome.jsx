@@ -20,7 +20,6 @@ export default function HeaderHome() {
             <div className="links-header">
 
                 <NavLink  className="nav-links"  to= "/">Inicio</NavLink>
-                <NavLink className="nav-links" to= "/" >Contacto</NavLink>
                 <NavLink className="nav-links" to= "/about" >Nosotros</NavLink>
 
             </div>
