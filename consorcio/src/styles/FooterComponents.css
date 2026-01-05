@@ -1,50 +1,51 @@
 .footer {
-  background-color: #062c28;
-  color: white;
-  padding: 40px 20px;
-  margin-top: 20px;
+  background-color: #033340;
+  color: #eff1ef;
+  padding: 10px 20px;   /* ⬅ menos padding */
+  margin-top: 30px;;
 }
 
 /* CONTENEDOR */
 .footer-container {
-  display: grid;
-  gap: 30px;
-  text-align: center;
+   display: grid;
+  align-items: start;
+  text-align: left;     /* ⬅ ya no centrado */
+ 
 }
 
 /* COLUMNAS */
 .footer-box h4 {
-  margin-bottom: 10px;
+  
+  font-size: 15px;      /* ⬅ más chico */
 }
 
 .footer-box ul {
-  list-style: none;
-  padding: 0;
+ margin: 5px 0;
+  font-size: 15px;      /* ⬅ más chico */
 }
 
 .footer-box li {
-  margin: 6px 0;
+  margin: 15px 0;
 }
 
 /* LOGO */
 .logo-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display:flex;
+  align-items:end;
 }
 
 .footer-logo {
-  width: 80px;
-  margin-bottom: 10px;
+ width: 40px;              
+  margin-bottom: 6px;
 }
 
 /* COPYRIGHT */
 .footer-copy {
-  border-top: 1px solid #1aff7c;
-  margin-top: 30px;
-  padding-top: 15px;
+  border-top: 1px solid #eff1ef;
+  margin-top: 8px;
+  padding-top: 8px;
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;  
 }
 
 /* DISPOSITIVO PEQUEÑO → 1 COLUMNA */

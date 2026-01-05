@@ -2,39 +2,46 @@
 /* estilos presentacion */
 .presentacion{
     background-image: url(../assets/img/bg-home.png);
-    height: 700px;
+    height: 500px;
     display: flex;
+    align-items: center;      /* centra verticalmente */
+    justify-content: space-between;
     padding: 105px;
-    gap: 280px;
-    justify-content: center;
+    gap: 80px;          
 }
-
+.imagen-presentacion img {
+  width: 430px;      /* tamaño que vos querés */
+  max-width: 100%;   /* evita que se rompa en mobile */
+  height: auto;      /* mantiene proporción */
+  margin-top: 25px;
+ 
+}
 .titulo{
-    color: white;
-    font-family: var(--fuente-principal);
-    font-size:65px;
-    font-weight: bold;
+    
+  color: var(--bg-general);
+  font-family: var(--fuente-principal);
+  font-size: 60px;
+  font-weight: 600;
+  text-align: left
     
 }
 
 .titulo-presentacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* texto arriba, botón abajo */
+  align-items: flex-start;        /* TODO a la izquierda */
+  height: 100%;                   /* CLAVE para igualar botones */
+  max-width: 600px;
 }
 
 .boton-presentacion{
     background-color: var(--bg-botones) !important;
     border: 1px solid var(--color-fuentes) !important;
     width: fit-content;
-    height: 60px;
-    margin-top: 100px;
-    margin-left: 100px;
-}
-
-.boton-presentacion span img{
-    margin-right: 8px;
+    margin-top: 30px;
+    margin-left: 50px
+    
 }
 
 .boton-presentacion .nav-links{
@@ -44,20 +51,22 @@
 /* estilos zona media */
 
 .seccion-media{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
 .iconos-media{
     display: flex;
-    gap: 200px;
-    margin-top: 50px;
+    gap: 150px;
+    margin-top: 60px;
     align-items: center;
     justify-content: center;
+   
     
 }
 
@@ -65,30 +74,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .icono-mid p{
-    font-size: large;
+    font-size: 30px;
     font-family: var(--fuente-principal);
+    color: var(--color-fuentes);
+    font-weight: 600;
 
 }
 
 .ejemplo-usos{
-    display: flex;
-    gap: 250px;
-    margin-top: 120px;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 80px;               /* 👈 misma separación siempre */
+  margin: 100px 50px;
     
 }  
-
-.ejemplo-usos span{
-     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+.lista-ejemplos {
+  max-width: 600px;
 }
+.ejemplo-usos img {
+  width: 400px;
+  border-radius: 4%;
+  flex-shrink: 0;   /* evita que se achique */
+}
+
+
+
 
 
 .elementos-lista{
     font-size: 18px;
     font-family: var(--fuente-principal);
+    color: var(--color-fuentes);
+  
 }
 
 
@@ -102,9 +123,11 @@
 }
 
 .contenedor-consulta{
-    display: flex;
-    gap: 200px;
-    margin-top: 40px;
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;                /* misma separación */
+  margin-top: 60px;
 }
 
 .contenedor-consulta span{
@@ -115,17 +138,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    width: 500px;
     font-family: var(--fuente-principal);
+    color: var(--color-fuentes)
     
+    
+}
+.formulario-consulta button {
+  margin-top: 20px; /* empuja el botón abajo */
 }
 
 .cuadro-consultas{
-    background-color: #003331;
+    background-color: #033340;
     margin-top: 100px;
-    padding: 50px;
+    padding: 30px;
     display: flex;
-    gap: 200px;
+    gap: 150px;
     justify-content:center;
     font-family: var(--fuente-principal);
     color: var(--bg-botones);

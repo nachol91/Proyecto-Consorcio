@@ -6,18 +6,18 @@
 
 :root{
 
-  --bg-general: #fdfdfd;
-  --bg-header: #E6F4F1;
-  --bg-footer:#033136;
-  --bg-aside: #f8f9fa;
-  --bg-cards: #e9f7f1;
+  --bg-general: #eff1f1;
+  --bg-header: #eff1f1;
+  --bg-footer:#033430;
+  --bg-aside: #eff1f1;
+  --bg-cards: #eff1f1;
   --bg-tablas: #f7f9fa;
-  --bg-items-lista: #f7f9fa;
-  --bg-botones: #afff05;
-  --bg-header-tablas: #033136;
-  --bg-hoover-botones: #045B61;
-  --bg-recuadros: #045B61;
-  --color-fuentes: #033136;
+  --bg-items-lista: #eff1f1;
+  --bg-botones: #00ed64;
+  --bg-header-tablas: #033430;
+  --bg-hoover-botones: #033340;
+  --bg-recuadros: #033430;
+  --color-fuentes: #033430;
   --fuente-principal: 'lato', sans-serif;
   
  
