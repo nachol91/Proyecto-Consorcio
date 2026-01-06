@@ -15,29 +15,32 @@ export default function AboutPage() {
         <h1>Gestor App</h1>
 
         <br />
+        
 
-        <h2>Quienes Somos</h2>
-        <p>
-          Somos un grupo de estudiantes que empezamos este recorrido dando
+        <div className="about-secciones">
+  <section className="about-box">
+    <h2>Quiénes Somos</h2>
+    <p>
+      Somos un grupo de estudiantes que empezamos este recorrido dando
           nuestros primeros pasos como desarrolladores, buscando crear sitios
           web interactivos y que se adapten a las necesidades de todo tipo de
           usuario.
-        </p>
+    </p>
+  </section>
 
-        <hr />
-        <br />
-
-        <h2>Nuestro Objetivo</h2>
-        <p>
-          {" "}
-          Creamos una app web pensada para poder facilitar la gestión de
+  <section className="about-box">
+    <h2>Nuestro Objetivo</h2>
+    <p>
+      Creamos una app web pensada para poder facilitar la gestión de
           edificios, con una interfaz amigable y sencilla tanto para el usuario
           inquilino como el administrador, facilitando gestiones muy importantes
           tales como : Gastos y Pagos de Expensas,Reserva de Espacios Comunes,
           Comunicación Directa y demás.Con una gestión 100% digital que ahorra
           tiempo y mejora la convivencia comunitaria.
-        </p>
-        <br />
+
+    </p>
+  </section>
+</div>
 
         <h2>Integrantes</h2>
 

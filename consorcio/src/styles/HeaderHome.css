@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--bg-header);
-  padding: 3px 0;   /* 👈 clave */
+  padding: 3px 0;   
 }
 
 
@@ -57,7 +57,7 @@
 }
 
 .boton-ingreso:hover{
-    background-color: antiquewhite !important;
+    background-color: #033340;
     color: black;
 }
 
