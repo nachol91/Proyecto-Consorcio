@@ -1,22 +1,23 @@
 
-.main-about{
-  min-height: 100vh;          
-  width: 100vw;               
-  margin: 0;                  
-  padding: 60px 40px;
-  box-sizing: border-box;
-  
+.about-secciones {
+  display: flex;
+  gap: 60px;                 
+  max-width: 1200px;
+  margin: 0 auto 60px auto;
+}
 
-  display: flex;              
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  
+.about-box {
+  flex: 1;                   
+  text-align: left;          
+}
+.about-box h2 {
+  text-align: left;
+  margin-bottom: 15px;
+}
 
-  font-family: var(lato);
-  background-color: #fafafa;
-  text-align: center;
-  color: #033340;
+.about-box p {
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 .main-about h1 {
@@ -76,6 +77,33 @@
     border-radius: 60%;
 }
 
+@media (max-width: 768px) {
+  .about-secciones {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 
 
 
+
+@media (max-width: 768px) {
+  #card-avatares {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  #GaleríaImagen {
+    width: 60px;
+    height: 60px;
+  }
+
+  #CardImagenes h3 {
+    font-size: 12px;
+  }
+
+  #Logo-Github {
+    width: 24px;
+    height: 24px;
+  }
+}

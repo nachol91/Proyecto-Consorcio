@@ -65,7 +65,7 @@ export default function LogInPage({ authAdmin, authInquilinos, logInAdmin, logIn
                     <Form.Group className="mb-3" controlId="password">
                         <Form.Control type="password" placeholder="Contraseña" required />
                     </Form.Group>
-                    <Button variant="primary" type="submit" style={{ backgroundColor: '#afff05', color: '#033136', border: '1px, solid, #033136' }}>
+                    <Button variant="primary" type="submit" style={{ backgroundColor: '#00ed64', color: '#033340', border: '1px, solid, #033340' }}>
                         ingresar
                     </Button>
                 </Form>

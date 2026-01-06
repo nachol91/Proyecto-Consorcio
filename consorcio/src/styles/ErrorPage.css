@@ -7,8 +7,8 @@
   justify-content: center;
   align-items: center;
 
-  background-color: #052e16;
-  color: #dcfce7;
+  background-color: #033340;
+  color: #eff1ef;
 }
 
 
@@ -22,7 +22,7 @@
 }
 
 .error-code {
-    color: #22c55e;
+    color: #00ed64;
     font-size: 96px;
   animation:
     zoomFade 0.8s ease-out,
@@ -37,8 +37,8 @@
 
 .error-button {
   text-decoration: none;
-  background-color: #22c55e;
-  color: #052e16;
+  background-color: #00ed64;
+  color: #033340;
   padding: 14px 30px;
   border-radius: 8px;
   font-weight: bold;
@@ -47,5 +47,5 @@
 }
 
 .error-button:hover {
-  background-color: #16a34a;
+  background-color: #00ed64;
 }

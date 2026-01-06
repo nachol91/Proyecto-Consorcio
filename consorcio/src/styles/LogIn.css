@@ -1,4 +1,5 @@
 .main-login{
+    color: #033340;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +9,7 @@
     
 
 Form{
+    color: #033340;
     width: 300px;
     margin-top: 15px;
     display: flex;
