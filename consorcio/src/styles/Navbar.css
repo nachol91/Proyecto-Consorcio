@@ -1,0 +1,83 @@
+.navbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 18px 40px;
+  background: #f6f8f7;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* IZQUIERDA */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navbar-logo {
+  width: 55px; 
+}
+
+.navbar-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0b3d3f;
+}
+
+/* CENTRO */
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.navbar-center a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.navbar-center a:hover {
+  color: #2ecc71;
+}
+
+/* DERECHA */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-datetime {
+  text-align: right;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-user {
+  font-weight: 500;
+  color: #0b3d3f;
+}
+
+/* BOTÓN LOGOUT */
+.btn-logout {
+  background: #2ecc71;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-logout:hover {
+  background: #27ae60;
+}

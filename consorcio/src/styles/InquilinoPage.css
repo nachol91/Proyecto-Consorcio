@@ -1,0 +1,140 @@
+/* GENERAL */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+}
+
+/* HEADER */
+.header-inquilino {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f2937;
+  color: white;
+  padding: 12px 20px;
+}
+
+.logo {
+  height: 45px;
+}
+
+.fecha-hora {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background: #4f46e5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+
+.logout {
+  background: #ef4444;
+  border: none;
+  reminding to come
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* BODY */
+.body-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr 220px;
+  gap: 16px;
+  padding: 16px;
+}
+
+/* ASIDE MENU */
+.aside-menu {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.aside-menu button {
+  background: #f1f5f9;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.aside-menu button:hover {
+  background: #e0e7ff;
+}
+
+/* MAIN */
+.main-content {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.main-content h1 {
+  font-size: 1.8rem;
+  color: #111827;
+}
+
+.card {
+  margin-top: 20px;
+  background: #f9fafb;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+/* ASIDE MESSAGES */
+.aside-messages {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.whatsapp {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.email {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .body-layout {
+    grid-template-columns: 1fr;
+  }
+}
